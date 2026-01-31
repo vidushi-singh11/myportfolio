@@ -151,7 +151,7 @@ nav a:hover::after {
     }
 
     50% {
-        transform: translateY(-30px)
+        transform: translateY(-40px)
     }
 }
 
