@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio: Vidushi Singh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Vidushi Singh</h1>
+        <nav>
+            <a href="#home">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text reveal">
+            <h2>Crafting Modern & Interactive Web Experiences</h2>
+            <p>I’m Vidushi Singh, a third-year engineering student and frontend developer passionate about creating
+                futuristic, animated, and accessible interfaces that feel alive.</p>
+        </div>
+        <div class="hero-visual">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <img src="public/assets/me.png" alt="Vidushi Singh"
+                width="280" height="280" style="filter:drop-shadow(0 0 40px #60a5fa)">
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">
+            <h3>Featured Projects</h3>
+        </div>
+        <div class="projects">
+            <div class="card reveal"><img src="public/assets/hawk_shuttles.png">
+                <h4>Hawk Shuttles</h4>
+                <p>
+                    A futuristic shuttle booking platform with smooth animations and interactive UI.
+                </p>
+                <a href="https://hawk-shuttles.vercel.app/">View Project</a>
+            </div>
+            <div class="card reveal"><img src="public/assets/cooking.png">
+                <h4>Cooking</h4>
+                <p>
+                    An animated recipe app with engaging transitions and user-friendly design.
+                </p>
+                <a href="https://cooking-weld.vercel.app/">View Project</a>
+            </div>
+            <div class="card reveal"><img src="public/assets/live_chat_app.png">
+                <h4>Live Chat App</h4>
+                <p>
+                    A real-time chat application with sleek UI and seamless user experience.
+                </p>
+                <a href="https://live-chat-app-h5hr.onrender.com">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-title">
+            <h3>Skills</h3>
+        </div>
+        <div class="skills">
+            <div class="skill-card reveal">
+                <h4>Frontend Development</h4>
+                <div class="skill-items">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React.js</span>
+                    <span>Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <h4>UI/UX Design</h4>
+                <div class="skill-items">
+                    <span>Figma</span>
+                    <span>Adobe XD</span>
+                    <span>Prototyping</span>
+                    <span>User Research</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <h4>Tools & Technologies</h4>
+                <div class="skill-items">
+                    <span>Git</span>
+                    <span>VS Code</span>
+                    <span>npm</span>
+                    <span>Vercel</span>
+                    <span>Firebase</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">
+            <h3>Contact Me</h3>
+        </div>
+        <div class="contact reveal">
+            <form>
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="from_email" placeholder="Your Email" required>
+                <textarea rows="5" name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="links reveal">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vidushisingh0705@gmail.com">Email</a>
+            <a href="https://github.com/vidushi-singh11" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/vidushi-singh-493097326" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>© <span id="year"></span> Anubhav — All rights reserved.</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
